@@ -71,12 +71,16 @@ html {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        padding: 30px 20px;
     }
 
     #header {
         text-align: center;
         font-family: 'Sonsie One', cursive;
         color: #221F1F;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #footer {
