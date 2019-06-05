@@ -8,6 +8,6 @@ What are the two things most working professionals have to decide at 6pm when th
 
 Wouldn’t it be amazing to save that two or three hours you spend trying to make those decisions, and just chill?
 
-At &Chill we have you covered, so grab your Bae and tell us your mood and favorite type of food and we will tell you what to watch and where to order your dinner delivery from.
+&Chill will provide its users movie recommendations based on their mood. Users can also find food recommendations based on their location, previous user reviews, and by cuisine type.
 
 Live link: https://aeldenburg001.github.io/Chill/
