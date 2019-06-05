@@ -4,9 +4,6 @@ html {
         font-family: 'Open Sans', sans-serif;
     }
     
-    #submit-button {
-        background: white;
-    }
 
     #trailer-div {
         position: relative;
@@ -19,7 +16,7 @@ html {
     }
 
     body {
-        color: #305782;
+        color: #221F1F;
         background: url(https://hpshplaidline.files.wordpress.com/2019/03/movies-featured.jpg);
         background-attachment: fixed;
         line-height: 1.5em;
@@ -33,27 +30,15 @@ html {
         margin-bottom: 10px;
     }
 
-    h5 {
-        color: #FFF;
+    h5, p {
+        color: #221F1F;
     }
     
     .container {
-        color: #305782;
+        color: #E50914;
         padding-top: 10px;
         padding-bottom: 10px;
         text-align: center;
-    }
-
-    #content {
-        background: url(https://images.pexels.com/photos/755726/pexels-photo-755726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    }
-
-    #results {
-        background: url(https://images.pexels.com/photos/755726/pexels-photo-755726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    }
-
-    #about {
-        background: url(https://images.pexels.com/photos/755726/pexels-photo-755726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     }
 
     .card-img {
@@ -74,6 +59,7 @@ html {
       }
 
       .sugg-head {
+        color: #221F1F;
           font-weight: bolder;
           font-size: 1.25rem;
       }
@@ -81,33 +67,31 @@ html {
     .page-header {
         background-color: #FFF;
         padding: 30px 20px;
-        color: #FFF;
+        color: #221F1F;
         font-family: 'Sonsie One', cursive;
     }
 
     #header {
-        background: url(https://images.pexels.com/photos/1363876/pexels-photo-1363876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
         text-align: center;
-        color: #FFF;
         font-family: 'Sonsie One', cursive;
+        color: #221F1F;
     }
 
     #footer {
-        background: url(https://images.pexels.com/photos/1363876/pexels-photo-1363876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
         text-align: center;
-        color: #FFF;
         font-family: 'Sonsie One', cursive;
+        color: #221F1F;
     }
 
     footer {
         text-align: center;
-        color: #FFF;
         margin: 0 auto;
         font-family: 'Sonsie One', cursive;
+        color: #221F1F;
     }
 
     .main-content {
-        color: #305782;
+        color: #E50914;
     }
     
     /* Nav Menu */
@@ -131,7 +115,7 @@ html {
         display: block;
         font-size: 90%;
         padding: 10px 25px 10px 0;
-        color: #305782;
+        color: #221F1F;
         text-decoration: none;
         font-weight: bold;
     }
@@ -144,7 +128,7 @@ html {
         
         .menu-trigger {
             display: block;
-            color: #305782;
+            color: #221F1F;
             background-color: #FFF;
             padding: 10px;
             text-align: right;

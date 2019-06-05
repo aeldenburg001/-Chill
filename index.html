@@ -29,7 +29,7 @@
 
 		<!-- page-header -->
 		<div class="page-header" id="header">
-			<img src="https://media.giphy.com/media/Su1LEENPpQytbMLc4o/giphy.gif" class="card-img" alt="logo">
+			<img src="assets/logos/logo2.png" class="card-img-logo" alt="logo">
 		</div>
 
 		<span class="menu-trigger">Menu</span>
@@ -45,8 +45,7 @@
 		<!-- main-content of app-->
 		<div class="main-content">
 
-			<div class="card">
-				<div class="card-body" id="content">
+			
 					<!-- Collapsable "accordion" cards for user input -->
 					<div class="accordion" id="accordionExample">
 
@@ -224,12 +223,12 @@
 															<!-- Address form -->
 															<div class="form-row">
 																<div class="form-group col-md-6">
-																	<label for="inputCity">City</label>
-																	<input type="text" class="form-control" id="inputCity" required>
+																	
+																	<input type="text" class="form-control" placeholder="City" id="inputCity" required>
 																</div>
 																<div class="form-group col-md-6">
-																	<label for="inputState">State</label>
-																	<select id="inputState" class="form-control" required>
+																	
+																	<select id="inputState" class="form-control" placeholder="State" required>
 																		<option value="" selected>Choose...</option>
 																		<option>AL</option>
 																		<option>AK</option>
@@ -284,7 +283,7 @@
 																	</select>
 																</div>
 															</div>
-
+															<button type="submit" class="btn btn-primary" id="submit-button">Submit</button>
 														</div>
 													</div>
 												</div>
@@ -292,37 +291,20 @@
 										</div>
 									</div>
 								</div>
-								<button type="submit" class="btn" id="submit-button">Submit</button>
+								
 						</div>
 					</div>
 				</div>
-			</div>
+			
 
-			<div class="card">
-				<div class="card-body" id="results">
+			
+				
 					<!-- Card for Movie / Food Results -->
-					<h5>Your Reccomendations</h5>
+
+					
+					
 					<div class="container">
 						<div class="row">
-							<div class="col">
-								<!-- Card for movie results-->
-								<div class="card">
-									<div class="card-body">
-
-										<img id="movie-pic"
-											src="https://media.wired.com/photos/59de99f39db9cf4266631b87/master/w_1440,c_limit/Movies-TopArt.jpg"
-											class="card-rec-img" alt="movie">
-
-										<p id="movie-name"></p>
-										<p id="movie-genre"></p>
-										<p id="movie-rating"></p>
-										<p id="movie-year"></p>
-										<p id="movie-bio"></p>
-										<p id="trailer-url"></p>
-										<button type="button" class = "btn btn-primary" id="movie-reset">Pick Again</button>
-									</div>
-								</div>
-							</div>
 							<div class="col">
 								<!-- Card for food results-->
 								<div class="card">
@@ -339,6 +321,25 @@
 									</div>
 								</div>
 							</div>
+							<div class="col">
+								<!-- Card for movie results-->
+					<div class="card">
+						<div class="card-body">
+
+							<img id="movie-pic"
+								src="https://media.wired.com/photos/59de99f39db9cf4266631b87/master/w_1440,c_limit/Movies-TopArt.jpg"
+								class="card-rec-img" alt="movie">
+
+							<p id="movie-name"></p>
+							<p id="movie-genre"></p>
+							<p id="movie-rating"></p>
+							<p id="movie-year"></p>
+							<p id="movie-bio"></p>
+							<p id="trailer-url"></p>
+							<button type="button" class = "btn btn-primary" id="movie-reset">Pick Again</button>
+						</div>
+					</div>
+							</div>
 						</div>
 						<div class="row">
 							<div class=col-md-12>
@@ -348,8 +349,8 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
+				
+			
 		</div>
 	</div>
 	</div>
