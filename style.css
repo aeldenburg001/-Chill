@@ -1,0 +1,186 @@
+html {
+        padding: 0;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+
+    #trailer-div {
+        position: relative;
+        width: 100%;
+    }
+
+    #trailer-embed {
+        position: relative;
+        padding-bottom: 56.25%;
+    }
+
+    body {
+        color: #221F1F;
+        background: url(https://hpshplaidline.files.wordpress.com/2019/03/movies-featured.jpg);
+        background-attachment: fixed;
+        line-height: 1.5em;
+        padding: 0;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .card {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h5, p {
+        color: #221F1F;
+    }
+    
+    .container {
+        color: #E50914;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .card-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+        height: 200px;
+        max-width: 100%;
+      }
+
+      .card-rec-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        height: auto;
+      }
+
+      .sugg-head {
+        color: #221F1F;
+          font-weight: bolder;
+          font-size: 1.25rem;
+      }
+    
+    .page-header {
+        background-color: #FFF;
+        padding: 30px 20px;
+        color: #221F1F;
+        font-family: 'Sonsie One', cursive;
+    }
+
+    #header {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 100%;
+        font-family: 'Sonsie One', cursive;
+        color: #221F1F;
+    }
+
+    #footer {
+        text-align: center;
+        font-family: 'Sonsie One', cursive;
+        color: #221F1F;
+    }
+
+    footer {
+        text-align: center;
+        margin: 0 auto;
+        font-family: 'Sonsie One', cursive;
+        color: #221F1F;
+    }
+
+    .main-content {
+        color: #E50914;
+    }
+    
+    /* Nav Menu */
+    div.nav-menu {
+        background-color: #e7ecf2;
+        padding: 0 20px;
+    }
+    
+    div.nav-menu ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    div.nav-menu ul li {
+        list-style: none;
+        float: left;
+    }
+    
+    div.nav-menu ul li a:link,
+    div.nav-menu ul li a:visited {
+        display: block;
+        font-size: 90%;
+        padding: 10px 25px 10px 0;
+        color: #221F1F;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .menu-trigger {
+        display: none;
+    }
+    
+    @media screen and (max-width: 480px) {
+        
+        .menu-trigger {
+            display: block;
+            color: #221F1F;
+            background-color: #FFF;
+            padding: 10px;
+            text-align: right;
+            font-size: 83%;
+            cursor: pointer;
+        }
+        
+        div.nav-menu {
+            display: none;
+        }
+        div.nav-expanded {
+            display: block;
+        }
+        div.nav-menu ul li {
+            float: none;
+            border-bottom: 2px solid #d5dce4;
+        }
+        div.nav-menu ul li:last-child {
+            border-bottom: none;
+        }
+    }
+
+.menu-trigger {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .menu-trigger {
+        display: block;
+    }
+
+    div.nav-menu {
+        display: none;
+    }
+
+    div.nav-expanded {
+        display: block;
+    }
+
+    div.nav-menu, ul, li {
+        float: none;
+        border-bottom: 2px solid black;
+    }
+    div.nav-menu, ul, li.last-child {
+        border-bottom: none;
+    }
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
